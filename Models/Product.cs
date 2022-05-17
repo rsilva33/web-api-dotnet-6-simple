@@ -8,7 +8,7 @@ namespace API.Models{
         //relacionando com Id de Categoria e deve ser do mesmo tipo
         public int CategoryId { get; set; }
         public Category Category { get; set; }
-
+        
         //Produto pode ter varias Tags
         public List<Tag> Tags { get; set; }
     }
